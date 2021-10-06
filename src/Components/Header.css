@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+.header {
+    background-color: #d9ffd9;
+}
+
+.tlogo {
+    width : 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.list1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3CB371;
+}
+  
+.list1element {
+  float: left;
+  margin-left: 14%;
+}  
+.list1element a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-family: 'Lato', sans-serif;    
+    cursor: pointer;
+    background-color: #19b35e;
+
+}
+  
+.list1element a:hover {
+    background-color: #00FA9A;
+    color: black;
+}
+
+@media only screen and (max-width: 600px) {
+.list1element {
+    float: left;
+    margin-left: 5%;
+}  
+.tlogo {
+    width : 40%;
+}
+
+}

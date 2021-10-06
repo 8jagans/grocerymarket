@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+.foot {
+    padding: 2%;
+    background-color: #512979;
+    display: flex;
+}
+
+.F01 {
+    width: 30%;
+    padding-left: 5%;
+}
+
+.F02 {
+    width: 20%;
+    padding-left: 5%;
+}
+
+.list2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 90%;
+    margin-left: 3%;
+    padding-top: 1%;
+
+}
+      
+.SM {
+    width: 12%;
+    float: left;
+    margin-left: 5%;
+    transition-duration: 0.3s;
+}
+      
+.SM:hover {
+    box-shadow: 0px 0px 15px 2px rgb(108, 255, 199);
+    border-radius: 100%;
+    color: black;
+    width:14%;
+}
+
+.para {
+    color: #18CC47;
+    font-family: 'Lato', sans-serif;   
+    font-size: 110%; 
+    margin-left: 6%;
+}
+.p1 {
+    color: #91CA23;
+}
+
+.foot1 {
+    padding: 2%;
+    background-color: #512979;
+    display: flex;
+}
+
+.para2 {
+    padding-left: 12%;
+    text-decoration: none;
+    margin-top: 1%;
+}
+.para21 {
+    color: black;
+    font-weight: 700;
+    font-size: 125%;
+    background-color: #18CC47;
+    border-radius: 50px;
+    width: 128px;
+    height: 35px;
+    text-align: center;
+}
+.para21:hover {
+    box-shadow: 0px 0px 0px 3px rgb(130, 238, 184);
+}
+
+@media only screen and (max-width: 600px) {
+
+.foot {
+    display: block;
+}
+
+.F01 {
+    width: 70%;
+    padding-left: 10%;
+    margin-left: 10%;
+    padding-top: 2%;
+}
+
+.F02 {
+    width: 50%;
+    padding-top: 6%;
+    padding-bottom: 5%;
+    margin-left: 20%;
+}
+
+.list2 {
+    margin-left: 8%;
+}
+
+.para2 {
+    text-decoration: none;
+    margin-top: 1%;
+    display: block;
+}
+.foot1 {
+    display: grid;
+    padding-left: 10%;
+}
+
+}

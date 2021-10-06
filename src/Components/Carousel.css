@@ -1,0 +1,30 @@
+.caro {
+    height: 400px;
+    margin:0%;
+    background-color:#008B8B;
+    color: white;
+    overflow : hidden;
+    text-align: center;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    color: black;
+    margin: -3%;
+}
+
+.carousel-item {
+    transition: transform .5s;
+}
+
+.img1 {
+    width: 100%;
+    object-fit:contain;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+.caro {
+    height: 148px;
+}
+}
